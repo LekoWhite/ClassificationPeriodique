@@ -1,2 +1,17 @@
+.titre {
+  position: absolute;
+  font-style: italic;
+  padding-top: 10%;
+  background-color: lightgray;
+  display: block;
+  width: 100%;
+  left: 0%; 
+  padding: 20px;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 1px 1px 5px black;
+}
+
 body {
+  background-color: darkgrey;
 }
