@@ -6,3 +6,4 @@
 * **Barre de recherche** d'éléments acceptant:
   * Le Symbole. (Ex: *Rb*)
   * Le nom. (Ex: *Rubidium*)
+  * Le Nombre Atomique. (Ex: *37*)
