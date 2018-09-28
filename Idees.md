@@ -8,5 +8,5 @@
   * Le nom. (Ex: *Rubidium*)
   * Le Nombre Atomique. (Ex: *37*)
 
-* Il y a **122** Éléments dans le tableau!!
-  * *Exemple de commande Emmet (non finale!!!)* **:** .atom#atom$$$\*122>.atomicNumber+.protonAverage
+* Il y a **118** Éléments dans le tableau!!
+  * *Exemple de commande Emmet (non finale!!!)* **:** .atom#atom$$$\*118>.atomicNumber+.protonAverage
