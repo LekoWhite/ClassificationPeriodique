@@ -1,0 +1,14 @@
+#table{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  margin: 15px;
+}
+
+.atom{
+  height: 50px;;
+  padding: 10px;
+  margin: 2px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
