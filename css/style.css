@@ -8,13 +8,21 @@ header {
   font-family: 'Roboto', sans-serif;
   background-color: #009688;
   width: 100%;
+  height:20%;
   padding: 5px 0px;
   text-align: center;
   box-shadow: 0px 1px 5px #0000009c;
+  background-image: url("../images/atome.png");
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-size:20% 20%;
+  background-position: top
 }
 
-img{
-  width:20%;
+h1{
+  margin-top: 3%;
+  color:rgb(250,70,70);
+  text-shadow: 10px 10px 10px black;
 }
 
 body {
