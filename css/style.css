@@ -13,6 +13,10 @@ header {
   box-shadow: 0px 1px 5px #0000009c;
 }
 
+img{
+  width:20%;
+}
+
 body {
   background-color: #ECECEC;
   height: 100vh;
