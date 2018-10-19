@@ -1,15 +1,14 @@
 #table{
   display: grid;
-  grid-template: repeat(11, 1fr) / repeat(18, 1fr);
-  margin: 100px 150px;
+  grid-template: repeat(10, 1fr) / repeat(18, 1fr);
+  margin: 50px 75px;
+  grid-gap: 4px;
 }
-
 
 
 .atom{
   height: 50px;
   padding: 10px;
-  margin: 2px;
   border: 1px solid black;
   border-radius: 4px;
 }
@@ -17,15 +16,17 @@
 #actin{
   display: inherit;
   grid-auto-flow: column;
-  grid-row: 11 / 12;
+  grid-row: 10 / 11;
   grid-column: 4 / 19;
+  grid-gap: inherit;
 }
 
 #lanth{
   display: inherit;
   grid-auto-flow: column;
-  grid-row: 10 / 11;
+  grid-row: 9 / 10;
   grid-column: 4 / 19;
+  grid-gap: inherit;
 }
 
 
@@ -39,4 +40,9 @@
   grid-column-start: 3;
   grid-column-end: 13;
   grid-row: 2 / 4;
+}
+
+.empty_space3{
+  grid-column: 3 / 4;
+  grid-row: 6 / 8;
 }
