@@ -19,6 +19,13 @@
   grid-column: 4 / 19;
 }
 
+#lanth{
+  display: inherit;
+  grid-auto-flow: column;
+  grid-row: 10 / 11;
+  grid-column: 4 / 19;
+}
+
 .empty_space{
   grid-column-start: 2;
   grid-column-end: 18;
