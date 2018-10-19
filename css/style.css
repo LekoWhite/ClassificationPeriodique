@@ -63,7 +63,7 @@ body {
   background-color: white;
   position: relative;
   width: 80%;
-  height: 18%;
+  height: 13%;
   left: 10%;
   top: 10%;
   border-style: solid;
@@ -75,8 +75,7 @@ body {
 
 span {
   width: 10%;
-  height: 10%;
-  background-color: red;
+  height: 100%;
   position: absolute;
 }
 
@@ -86,6 +85,7 @@ span {
 }
 
 .alcTer {
+<<<<<<< HEAD
 
 }
 
@@ -124,3 +124,53 @@ span {
 .nonClasses {
 
 }
+=======
+  background-color: blue;
+  left: 9%;
+}
+
+.lanth {
+  background-color: green;
+  left: 18%;
+}
+
+.actin {
+  background-color: yellow;
+  left: 27%;
+}
+
+.metauxTransi {
+  background-color: pink;
+  left: 36%;
+}
+
+.metauxPauvres {
+  background-color: cyan;
+  left: 45%;
+}
+
+.metalloides {
+  background-color: orange;
+  left: 54%;
+}
+
+.nonMetaux {
+  background-color: magenta;
+  left: 63%;
+}
+
+.hal {
+  background-color: purple;
+  left: 72%;
+}
+
+.gazNobles {
+  background-color: grey;
+  left: 81%;
+}
+
+.nonClasses {
+  background-color: maroon;
+  left: 90%;
+}
+>>>>>>> 1fca92c3d8d61a6f790c0f8c1f1a6c59124b211a
