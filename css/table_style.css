@@ -29,6 +29,7 @@
   grid-gap: inherit;
 }
 
+
 .empty_space{
   grid-column-start: 2;
   grid-column-end: 18;
@@ -39,4 +40,9 @@
   grid-column-start: 3;
   grid-column-end: 13;
   grid-row: 2 / 4;
+}
+
+.empty_space3{
+  grid-column: 3 / 4;
+  grid-row: 6 / 8;
 }
