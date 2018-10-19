@@ -1,14 +1,26 @@
 #table{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-
-  margin: 15px;
+  grid-template: repeat(11, 1fr) / repeat(18, 1fr);
+  margin: 100px 150px;
 }
 
 .atom{
-  height: 50px;;
+  height: 50px;
   padding: 10px;
   margin: 2px;
   border: 1px solid black;
   border-radius: 4px;
+}
+
+#actin{
+  display: inherit;
+  grid-auto-flow: column;
+  grid-row: 11 / 12;
+  grid-column: 4 / 19;
+}
+
+.empty_space{
+  grid-column-start: 2;
+  grid-column-end: 18;
+  grid-row: 1 / 3;
 }
