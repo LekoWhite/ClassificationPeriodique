@@ -29,5 +29,11 @@
 .empty_space{
   grid-column-start: 2;
   grid-column-end: 18;
-  grid-row: 1 / 3;
+  grid-row: 1 / 2;
+}
+
+.empty_space2{
+  grid-column-start: 3;
+  grid-column-end: 13;
+  grid-row: 2 / 4;
 }
