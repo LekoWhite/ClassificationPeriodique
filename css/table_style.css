@@ -28,6 +28,7 @@
   grid-column: 4 / 19;
 }
 
+
 .empty_space{
   grid-column-start: 2;
   grid-column-end: 18;
