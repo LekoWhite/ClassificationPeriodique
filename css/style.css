@@ -12,22 +12,11 @@ header {
   padding: 5px 0px;
   text-align: center;
   box-shadow: 0px 1px 5px #0000009c;
-  background-image: url("../images/atome.png");
-  background-attachment: fixed;
-  background-repeat:no-repeat;
-  background-size:20% 20%;
-  background-position: top;
 }
 
 h1{
   padding:5px;
-  margin-left:30%;
-  width:40%;
-  border-radius:20px;
-  background-color: rgba(0,0,0,0.3);
-  margin-top: 3%;
-  color:rgb(250,70,70);
-  text-shadow: 10px 10px 10px black;
+  margin-top:3%;
 }
 
 body {
