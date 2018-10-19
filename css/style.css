@@ -24,6 +24,14 @@ body {
   height: 100vh;
 }
 
+#bouton{
+  width:10%;
+  background-image: url('images/search-icon.png');
+  background-repeat: no-repeat;
+  background-size: 5% 5%;
+  background-position:fixed; 
+}
+
 .atom:hover {
   z-index:5;
 -webkit-transform: scale(1.5);
@@ -53,7 +61,7 @@ body {
 
 .legende {
   background-color: white;
-  position: relative; 
+  position: relative;
   width: 80%;
   height: 18%;
   left: 10%;
@@ -74,45 +82,45 @@ span {
 
 .alc {
   background-color: red;
-  
+
 }
 
 .alcTer {
-  
+
 }
 
 .lanth {
-  
+
 }
 
 .acti {
-  
+
 }
 
 .metauxTransi {
-  
+
 }
 
 .metauxPauvres {
-  
+
 }
 
 .metalloides {
-  
+
 }
 
 .nonMetaux {
-  
+
 }
 
 .hal {
-  
+
 }
 
 .gazNobles {
-  
+
 }
 
 .nonClasses {
-  
+
 }
