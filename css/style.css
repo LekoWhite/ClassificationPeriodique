@@ -45,7 +45,7 @@ body {
   box-shadow:0 0 10px black;
   background-color: white;
   transition: 0.4s;
-  transition-delay:0.5s;
+  transition-delay:0.25s;
 }
 
 .atom {
