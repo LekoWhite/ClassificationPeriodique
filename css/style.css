@@ -61,3 +61,69 @@ body {
   margin-left: 15px;
   margin-top: 20px;
 }
+
+.legende {
+  background-color: white;
+  position: relative; 
+  width: 80%;
+  height: 18%;
+  left: 10%;
+  top: 10%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+  margin-bottom: 10%;
+}
+
+span {
+  width: 10%;
+  height: 10%;
+  background-color: red;
+  position: absolute;
+}
+
+.alc {
+  background-color: red;
+  
+}
+
+.alcTer {
+  
+}
+
+.lanth {
+  
+}
+
+.acti {
+  
+}
+
+.metauxTransi {
+  
+}
+
+.metauxPauvres {
+  
+}
+
+.metalloides {
+  
+}
+
+.nonMetaux {
+  
+}
+
+.hal {
+  
+}
+
+.gazNobles {
+  
+}
+
+.nonClasses {
+  
+}
