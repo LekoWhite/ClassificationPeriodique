@@ -60,7 +60,6 @@ body {
 }
 
 .legende {
-  background-color: white;
   position: relative;
   width: 80%;
   height: 13%;
@@ -68,67 +67,72 @@ body {
   top: 10%;
   border-style: solid;
   border-width: 1px;
-  border-radius: 5px;
   box-shadow: 1px 1px 5px black;
   margin-bottom: 10%;
+  text-align: center;
 }
 
 span {
-  width: 10%;
+  width: 9.090909%;
   height: 100%;
   position: absolute;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .alc {
   background-color: red;
+  left: 0%;
 }
 
 .alcTer{
   background-color: blue;
-  left: 9%;
+  left: 9.090909%;
 }
 
 .lanth {
   background-color: green;
-  left: 18%;
+  left: 18.181818%;
 }
 
 .actin {
   background-color: yellow;
-  left: 27%;
+  left: 27.272727%;
 }
 
 .metauxTransi {
   background-color: pink;
-  left: 36%;
+  left: 36.363636%;
 }
 
 .metauxPauvres {
   background-color: cyan;
-  left: 45%;
+  left: 45.454545%;
 }
 
 .metalloides {
   background-color: orange;
-  left: 54%;
+  left: 54.545454%;
 }
 
 .nonMetaux {
   background-color: magenta;
-  left: 63%;
+  left: 63.636363%;
 }
 
 .hal {
   background-color: purple;
-  left: 72%;
+  left: 72.727272%;
 }
 
 .gazNobles {
   background-color: grey;
-  left: 81%;
+  left: 81.818181%;
 }
 
 .nonClasses {
   background-color: maroon;
-  left: 90%;
+  left: 90.909090%;
 }
