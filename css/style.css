@@ -44,7 +44,7 @@ a{
 a:hover{
   color:red;
   font-size:1.4em;
-  transition:0.4s;
+  transition:0.8s;
   transition-delay:0.1s;
   margin-left:15px;
 }
