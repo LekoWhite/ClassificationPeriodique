@@ -31,6 +31,10 @@ body {
   background-position:fixed;
 }
 
+#bio{
+  font-family:Arial;
+}
+
 .atom:hover {
   z-index:5;
 -webkit-transform: scale(1.5);
