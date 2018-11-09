@@ -32,7 +32,8 @@ body {
 }
 
 .miseenpage{
-  font-family:Arial, sans-serif;
+  font-family:'Roboto', sans-serif;
+  font-size:1.3em;
 }
 
 #bio{
@@ -51,6 +52,10 @@ body {
 
 a{
 
+}
+
+p{
+  clear:left;
 }
 
 .atom:hover {
