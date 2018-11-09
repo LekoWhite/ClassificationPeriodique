@@ -33,6 +33,11 @@ body {
 
 #bio{
   font-family:Arial;
+
+}
+
+#Mendeleiev{
+  width:20%;
 }
 
 .atom:hover {
