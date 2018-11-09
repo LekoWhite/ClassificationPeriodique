@@ -31,13 +31,26 @@ body {
   background-position:fixed;
 }
 
+.miseenpage{
+  font-family:Arial, sans-serif;
+}
+
 #bio{
-  font-family:Arial;
 
 }
 
 #Mendeleiev{
   width:20%;
+  float:left;
+}
+
+#TabMend{
+  width:10%;
+  clear:left;
+}
+
+a{
+
 }
 
 .atom:hover {
