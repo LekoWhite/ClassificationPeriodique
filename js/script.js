@@ -1,10 +1,4 @@
 function debut () {
-	var bouton=document.getElementById("bouton");
-	bouton.addEventListener("click",tableau);
-
-}
-function tableau(){
-	window.location="../ClassificationPeriodique/index.html";
 }
 
 window.addEventListener("load",debut);
