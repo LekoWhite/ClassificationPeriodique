@@ -74,8 +74,6 @@ body {
   height: 13%;
   left: 10%;
   top: 10%;
-  border-style: solid;
-  border-width: 1px;
   box-shadow: 1px 1px 5px black;
   margin-bottom: 10%;
   text-align: center;
@@ -84,6 +82,8 @@ body {
 span {
   width: 9.090909%;
   height: 100%;
+  border-style: solid;
+  border-width: 1px;
   position: absolute;
   display: flex;
   display: flex;
