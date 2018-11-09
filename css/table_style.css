@@ -29,6 +29,7 @@
   grid-gap: inherit;
 }
 
+
 .empty_space{
   grid-column-start: 2;
   grid-column-end: 18;
