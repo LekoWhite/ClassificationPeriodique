@@ -50,12 +50,14 @@ body {
   clear:left;
 }
 
-a{
-
-}
-
 p{
   clear:left;
+  text-decoration:underline;
+}
+
+#sources{
+  padding-left:25px;
+  padding-top:5px;
 }
 
 .atom:hover {
