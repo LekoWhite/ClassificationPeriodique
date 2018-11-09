@@ -43,7 +43,6 @@ body {
       -o-transform: scale(1.5);
          transform: scale(1.5);
   box-shadow:0 0 10px black;
-  background-color: white;
   transition: 0.4s;
   transition-delay:0.25s;
 }
@@ -55,11 +54,13 @@ body {
       -o-transition:all .5s cubic-bezier(.6,2,.4,1);
          transition:all .5s cubic-bezier(.6,2,.4,1);
   background-color: white;
+
 }
 
 #element {
   margin-left: 15px;
   margin-top: 20px;
+
 }
 
 .legende {
@@ -84,43 +85,6 @@ span {
 
 .alc {
   background-color: red;
-
-}
-
-.lanth {
-
-}
-
-.acti {
-
-}
-
-.metauxTransi {
-
-}
-
-.metauxPauvres {
-
-}
-
-.metalloides {
-
-}
-
-.nonMetaux {
-
-}
-
-.hal {
-
-}
-
-.gazNobles {
-
-}
-
-.nonClasses {
-
 }
 
 .alcTer{
