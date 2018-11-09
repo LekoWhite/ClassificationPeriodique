@@ -105,56 +105,56 @@ span {
 }
 
 .alc {
-  background-color: red;
+  background-image:linear-gradient(#F40101, #B20505);
   left: 0%;
 }
 
 .alcTer{
-  background-color: blue;
+  background-image:linear-gradient(#1228F0, #1323AF);
   left: 9.090909%;
 }
 
 .lanth {
-  background-color: green;
+  background-image:linear-gradient(#21E648, #1E9B37);
   left: 18.181818%;
 }
 
 .actin {
-  background-color: yellow;
+  background-image:linear-gradient(#F0F901, #C6CD04);
   left: 27.272727%;
 }
 
 .metauxTransi {
-  background-color: pink;
+  background-image:linear-gradient(#FFCEFA, #BC8FB7);
   left: 36.363636%;
 }
 
 .metauxPauvres {
-  background-color: cyan;
+  background-image:linear-gradient(#3FF9FF, #36C1C6);
   left: 45.454545%;
 }
 
 .metalloides {
-  background-color: orange;
+  background-image:linear-gradient(#FFAC1C, #C48820);
   left: 54.545454%;
 }
 
 .nonMetaux {
-  background-color: magenta;
+  background-image:linear-gradient(#FD00F4, #C115BC);
   left: 63.636363%;
 }
 
 .hal {
-  background-color: purple;
+  background-image:linear-gradient(#9100F2, #610A9B);
   left: 72.727272%;
 }
 
 .gazNobles {
-  background-color: grey;
+  background-image:linear-gradient(#CFCFD0, #8C8A8D);
   left: 81.818181%;
 }
 
 .nonClasses {
-  background-color: maroon;
+  background-image:linear-gradient(#BF8851, #7D5A37);
   left: 90.909090%;
 }
