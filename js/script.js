@@ -3,7 +3,6 @@ function debut () {
 	bouton.addEventListener("click",tableau);
   var bouton=document.getElementById("boutonb");
   bouton.addEventListener("click",bio);
-}
 
 function tableau(){
 	window.location="../ClassificationPeriodique/index.html";
