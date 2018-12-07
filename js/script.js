@@ -3,9 +3,6 @@ var atomNames = [];
 var atomAtomicNumbers = [];
 var atomMolarMass = [];
 
-
-
-// Requette HTTP pour récupérer le XML et opérer sur le XML
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {

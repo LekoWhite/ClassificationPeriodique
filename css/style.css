@@ -39,7 +39,6 @@ body {
       -o-transform: scale(1.5);
          transform: scale(1.5);
   box-shadow:0 0 10px black;
-  background-color: white;
   transition: 0.4s;
   transition-delay:0.25s;
 }
@@ -51,120 +50,89 @@ body {
       -o-transition:all .5s cubic-bezier(.6,2,.4,1);
          transition:all .5s cubic-bezier(.6,2,.4,1);
   background-color: white;
+
 }
 
 #element {
   margin-left: 15px;
   margin-top: 20px;
+
 }
 
 .legende {
-  background-color: white;
   position: relative;
   width: 80%;
   height: 13%;
   left: 10%;
   top: 10%;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 5px;
   box-shadow: 1px 1px 5px black;
   margin-bottom: 10%;
+  text-align: center;
 }
 
 span {
-  width: 10%;
+  width: 9.090909%;
   height: 100%;
+  border-style: solid;
+  border-width: 1px;
   position: absolute;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .alc {
-  background-color: red;
-
-}
-
-.lanth {
-
-}
-
-.acti {
-
-}
-
-.metauxTransi {
-
-}
-
-.metauxPauvres {
-
-}
-
-.metalloides {
-
-}
-
-.nonMetaux {
-
-}
-
-.hal {
-
-}
-
-.gazNobles {
-
-}
-
-.nonClasses {
-
+  background-image:linear-gradient(#F40101, #B20505);
+  left: 0%;
 }
 
 .alcTer{
-  background-color: blue;
-  left: 9%;
+  background-image:linear-gradient(#1228F0, #1323AF);
+  left: 9.090909%;
 }
 
 .lanth {
-  background-color: green;
-  left: 18%;
+  background-image:linear-gradient(#21E648, #1E9B37);
+  left: 18.181818%;
 }
 
 .actin {
-  background-color: yellow;
-  left: 27%;
+  background-image:linear-gradient(#F0F901, #C6CD04);
+  left: 27.272727%;
 }
 
 .metauxTransi {
-  background-color: pink;
-  left: 36%;
+  background-image:linear-gradient(#FFCEFA, #BC8FB7);
+  left: 36.363636%;
 }
 
 .metauxPauvres {
-  background-color: cyan;
-  left: 45%;
+  background-image:linear-gradient(#3FF9FF, #36C1C6);
+  left: 45.454545%;
 }
 
 .metalloides {
-  background-color: orange;
-  left: 54%;
+  background-image:linear-gradient(#FFAC1C, #C48820);
+  left: 54.545454%;
 }
 
 .nonMetaux {
-  background-color: magenta;
-  left: 63%;
+  background-image:linear-gradient(#FD00F4, #C115BC);
+  left: 63.636363%;
 }
 
 .hal {
-  background-color: purple;
-  left: 72%;
+  background-image:linear-gradient(#9100F2, #610A9B);
+  left: 72.727272%;
 }
 
 .gazNobles {
-  background-color: grey;
-  left: 81%;
+  background-image:linear-gradient(#CFCFD0, #8C8A8D);
+  left: 81.818181%;
 }
 
 .nonClasses {
-  background-color: maroon;
-  left: 90%;
+  background-image:linear-gradient(#BF8851, #7D5A37);
+  left: 90.909090%;
 }
