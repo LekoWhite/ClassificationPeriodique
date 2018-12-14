@@ -24,16 +24,16 @@ body {
 
 #bouton{
   width:10%;
-  background-image: url('images/search-icon.png');
-  background-repeat: no-repeat;
-  background-size: 5% 5%;
-  background-position:fixed;
+}
+
+#TabMend{
+  
 }
 
 #element {
   margin-left: 15px;
   margin-top: 20px;
-
+  padding: 2px;
 }
 
 .legende {
@@ -190,3 +190,4 @@ span {
   background-image:linear-gradient(#BF8851, #7D5A37);
   left: 90.909090%;
 }
+ 
