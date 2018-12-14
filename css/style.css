@@ -75,7 +75,7 @@ span {
 
 
 
-.atom:hover {
+.atom:hover, atom.JSTrigger {
   z-index:5;
 -webkit-transform: scale(3);
     -moz-transform: scale(3);
