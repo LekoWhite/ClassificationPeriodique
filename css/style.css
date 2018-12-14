@@ -27,7 +27,7 @@ body {
 }
 
 #TabMend{
-  
+
 }
 
 #element {
@@ -77,27 +77,29 @@ span {
 
 .atom:hover {
   z-index:5;
--webkit-transform: scale(1.5);
-    -moz-transform: scale(1.5);
-     -ms-transform: scale(1.5);
-      -o-transform: scale(1.5);
-         transform: scale(1.5);
+-webkit-transform: scale(3);
+    -moz-transform: scale(3);
+     -ms-transform: scale(3);
+      -o-transform: scale(3);
+         transform: scale(3);
   box-shadow:0 0 10px black;
   transition: 0.4s;
-  transition-delay:0.25s;
+  transition-delay:0.5s; /* Délai pour que le scaling ne se fasse qu'après une seconde (User experience) */
 }
 
 .atom {
-  -webkit-transition:all .5s cubic-bezier(.6,2,.4,1);
-    -moz-transition:all .5s cubic-bezier(.6,2,.4,1);
-     -ms-transition:all .5s cubic-bezier(.6,2,.4,1);
-      -o-transition:all .5s cubic-bezier(.6,2,.4,1);
-         transition:all .5s cubic-bezier(.6,2,.4,1);
+  /* -webkit-transition: all .5s cubic-bezier(.6,2,.4,1);
+    -moz-transition: all .5s cubic-bezier(.6,2,.4,1);
+     -ms-transition: all .5s cubic-bezier(.6,2,.4,1);
+      -o-transition: all .5s cubic-bezier(.6,2,.4,1);
+         transition: all .5s cubic-bezier(.6,2,.4,1); */
+  /* transition-delay: 1s;  */
   background-color: white;
-  transform: scale(1);  /*Bug qui permet de placer les .atom_XXX relativement au .atom sans devoir le mettre en position: relative et casser l'affichage*/
+  transform: scale(1);  /* Hack qui permet de placer les .atom_XXX relativement au .atom sans devoir le mettre en position: relative et casser l'affichage*/
+  /* z-index: 0; */
 }
 
-.atom .atom_name{
+.atom_name{
   display: none;
   position: absolute;
   top:0;
@@ -105,6 +107,23 @@ span {
   text-align: center;
   transform: translate(-50%);
   font-size: 0.6em;
+}
+.atom:hover .atom_name{
+  display: block;
+}
+
+ .weight{
+  display: none;
+  position: absolute;
+  bottom:0;
+  left:50%;
+  text-align: center;
+  transform: translate(-50%);
+  font-size: 0.8em;
+  font-weight: normal;
+}
+.atom:hover .weight{
+  display: block;
 }
 
 .atom_symbol{
@@ -114,18 +133,6 @@ span {
   text-align: center;
   transform: translate(-50%, -50%);
 }
-
-.atom:hover .atom_name{
-  display: block;
-}
-
-.atom .weight{
-  display: none;
-}
-.atom:hover .weight{
-  display: block;
-}
-
 
 
 
@@ -190,4 +197,3 @@ span {
   background-image:linear-gradient(#BF8851, #7D5A37);
   left: 90.909090%;
 }
- 
