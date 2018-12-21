@@ -1,6 +1,6 @@
 #table{
   display: grid;
-  grid-template: repeat(10, 1fr) / repeat(18, 1fr);
+  grid-template: repeat(10, 72px) / repeat(18, 72px);
   margin: 50px 75px;
   grid-gap: 4px;
 }
@@ -10,21 +10,19 @@
   padding: 10px;
   border: 1px solid black;
   border-radius: 4px;
-  width: 55px;
-  height: 55px;
 }
 
 #actin{
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns: repeat(15, 72px);
   grid-row: 10 / 11;
   grid-column: 4 / 19;
-  grid-gap: inherit;
+  grid-gap: 4px;
 }
 
 #lanth{
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns: repeat(15, 72px);
   grid-row: 9 / 10;
   grid-column: 4 / 19;
   grid-gap: inherit;
@@ -47,4 +45,3 @@
   grid-column: 3 / 4;
   grid-row: 6 / 8;
 }
-

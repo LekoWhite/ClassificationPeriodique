@@ -69,19 +69,37 @@ span {
 
 
 
-
-
-
-
-
-
-.atom:hover, atom.JSTrigger {
+.JSTrigger{
   z-index:5;
--webkit-transform: scale(3);
-    -moz-transform: scale(3);
-     -ms-transform: scale(3);
-      -o-transform: scale(3);
-         transform: scale(3);
+-webkit-transform: scale(1.02) !important;
+    -moz-transform: scale(1.02) !important;
+     -ms-transform: scale(1.02) !important;
+      -o-transform: scale(1.02) !important;
+         transform: scale(1.02) !important;
+  box-shadow:0 0 20px red;
+  transition: box-shadow 0.4s;
+  transition-delay:0.5s; /* Délai pour que le scaling ne se fasse qu'après une seconde (User experience) */
+}
+
+
+.JSTrigger .atom_name{
+  display: block;
+}
+
+.JSTrigger .weight{
+  display: block;
+}
+.JSTrigger{
+  transition-delay: 0.1s;
+}
+
+.atom:hover {
+  z-index:5;
+-webkit-transform: scale(3) !important;
+    -moz-transform: scale(3) !important;
+     -ms-transform: scale(3) !important;
+      -o-transform: scale(3) !important;
+         transform: scale(3) !important;
   box-shadow:0 0 10px black;
   transition: 0.4s;
   transition-delay:0.5s; /* Délai pour que le scaling ne se fasse qu'après une seconde (User experience) */
