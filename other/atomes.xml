@@ -3111,11 +3111,11 @@ sp 0,69 ± 0,01 Å</column>
         </table>
         <table name="atome">
             <column name="id">113</column>
-            <column name="nom">Ununtrium</column>
-            <column name="slug">ununtrium</column>
+            <column name="nom">Nihonium</column>
+            <column name="slug">nihonium</column>
             <column name="electron">2|8|18|32|32|18|3</column>
             <column name="numero">113</column>
-            <column name="symbole">Uut</column>
+            <column name="symbole">Nh</column>
             <column name="info_groupe">13</column>
             <column name="info_periode">7</column>
             <column name="info_bloc">d</column>
@@ -3165,11 +3165,11 @@ sp 0,69 ± 0,01 Å</column>
         </table>
         <table name="atome">
             <column name="id">115</column>
-            <column name="nom">Ununpentium</column>
-            <column name="slug">ununpentium</column>
+            <column name="nom">Moscovium</column>
+            <column name="slug">moscovium</column>
             <column name="electron">2|8|18|32|32|18|5</column>
             <column name="numero">115</column>
-            <column name="symbole">Uup</column>
+            <column name="symbole">Mc</column>
             <column name="info_groupe">15</column>
             <column name="info_periode">7</column>
             <column name="info_bloc">d</column>
@@ -3219,11 +3219,11 @@ sp 0,69 ± 0,01 Å</column>
         </table>
         <table name="atome">
             <column name="id">117</column>
-            <column name="nom">Ununseptium</column>
-            <column name="slug">ununseptium</column>
+            <column name="nom">Tennesse</column>
+            <column name="slug">tennesse</column>
             <column name="electron">2|8|18|32|32|18|7</column>
             <column name="numero">117</column>
-            <column name="symbole">Uus</column>
+            <column name="symbole">Ts</column>
             <column name="info_groupe">17</column>
             <column name="info_periode">7</column>
             <column name="info_bloc">d</column>
@@ -3246,11 +3246,11 @@ sp 0,69 ± 0,01 Å</column>
         </table>
         <table name="atome">
             <column name="id">118</column>
-            <column name="nom">Ununoctium</column>
-            <column name="slug">ununoctium</column>
+            <column name="nom">Oganesson</column>
+            <column name="slug">oganesson</column>
             <column name="electron">2|8|18|32|32|18|8</column>
             <column name="numero">118</column>
-            <column name="symbole">Uuo</column>
+            <column name="symbole">Og</column>
             <column name="info_groupe">18</column>
             <column name="info_periode">7</column>
             <column name="info_bloc">d</column>

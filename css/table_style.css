@@ -1,8 +1,10 @@
 #table{
   display: grid;
-  grid-template: repeat(10, 72px) / repeat(18, 72px);
-  margin: 50px 75px;
+  grid-template: repeat(10,55px) / repeat(18, 55px);
+  margin: 20px 75px;
   grid-gap: 4px;
+
+  align-self: center;
 }
 
 
@@ -14,7 +16,7 @@
 
 #actin{
   display: grid;
-  grid-template-columns: repeat(15, 72px);
+  grid-template-columns: repeat(15, 55px);
   grid-row: 10 / 11;
   grid-column: 4 / 19;
   grid-gap: 4px;
@@ -22,7 +24,7 @@
 
 #lanth{
   display: grid;
-  grid-template-columns: repeat(15, 72px);
+  grid-template-columns: repeat(15, 55px);
   grid-row: 9 / 10;
   grid-column: 4 / 19;
   grid-gap: inherit;
