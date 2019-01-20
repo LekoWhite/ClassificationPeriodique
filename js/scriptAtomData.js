@@ -31,7 +31,7 @@ xhttp.onreadystatechange = function() {
     }
   }
 };
-xhttp.open("GET", "other/atomes.xml", true);
+xhttp.open("GET", "./other/atomes.xml", true);
 xhttp.send();
 
 
