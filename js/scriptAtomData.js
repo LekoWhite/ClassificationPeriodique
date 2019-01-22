@@ -64,7 +64,6 @@ xhttp.onreadystatechange = function() {
 
   }
   else {
-   console.log('Erreur ' + this.status + ' : ' + this.statusText); 
   }
 };
 xhttp.open("GET", "./other/atomes.xml", true);
