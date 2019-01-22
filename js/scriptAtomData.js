@@ -3,6 +3,36 @@ var atomNames = [];
 var atomAtomicNumbers = [];
 var atomMolarMass = [];
 
+
+function main() {
+  {
+    var atomSymbolElements = document.getElementsByClassName('atom_symbol');
+    for(let i = 0; i < atomSymbolElements.length; i++){
+      atomSymbolElements[i].innerHTML = atomSymbols[i]; // Insertion des Symboles
+    }
+  }
+  {
+    var atomNameElements = document.getElementsByClassName('atom_name');
+    for(let i = 0; i < atomNameElements.length; i++){
+      atomNameElements[i].innerHTML = atomNames[i]; // Insertion des Symboles
+    }
+  }
+  {
+    var atomAtomicNumberElements = document.getElementsByClassName('atomic_number');
+    for(let i = 0; i < atomAtomicNumberElements.length; i++){
+      atomAtomicNumberElements[i].innerHTML = atomAtomicNumbers[i]; // Insertion des Symboles
+    }
+  }
+  {
+    var atomMolarMassElements = document.getElementsByClassName('weight');
+    for(let i = 0; i < atomMolarMassElements.length; i++){
+      atomMolarMassElements[i].innerHTML = atomMolarMass[i]; // Insertion des Symboles
+    }
+  }
+}
+
+// HTTP Request
+
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
@@ -28,37 +58,10 @@ xhttp.onreadystatechange = function() {
           atomMolarMass.push(XMLColumns[i].innerHTML);
         }
       }
-
-
-      // Placement dans le HTML
-      function main() {
-        {
-          var atomSymbolElements = document.getElementsByClassName('atom_symbol');
-          for(let i = 0; i < atomSymbolElements.length; i++){
-            atomSymbolElements[i].innerHTML = atomSymbols[i]; // Insertion des Symboles
-          }
-        }
-        {
-          var atomNameElements = document.getElementsByClassName('atom_name');
-          for(let i = 0; i < atomNameElements.length; i++){
-            atomNameElements[i].innerHTML = atomNames[i]; // Insertion des Symboles
-          }
-        }
-        {
-          var atomAtomicNumberElements = document.getElementsByClassName('atomic_number');
-          for(let i = 0; i < atomAtomicNumberElements.length; i++){
-            atomAtomicNumberElements[i].innerHTML = atomAtomicNumbers[i]; // Insertion des Symboles
-          }
-        }
-        {
-          var atomMolarMassElements = document.getElementsByClassName('weight');
-          for(let i = 0; i < atomMolarMassElements.length; i++){
-            atomMolarMassElements[i].innerHTML = atomMolarMass[i]; // Insertion des Symboles
-          }
-        }
-      }
-      
     }
+
+    main();
+
   }
   else {
    console.log('Erreur ' + this.status + ' : ' + this.statusText); 
