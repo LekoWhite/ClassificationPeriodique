@@ -132,21 +132,18 @@ body {
   font-size: 0.5em;
 }
 
-
-
-
-
-
 .legende{
   display: flex;
-  box-shadow: 1px 1px 5px black;
-  width: 75vw;
-  align-self: center;
+  margin: 0 auto;
 }
 
-.legende > *{
-  padding: 20px 0px;
-  flex-grow: 1;
+.legende > div{
+  height: 25px;
+  padding: 0 10px;
+}
+
+.legende > div > span{
+  margin: auto; 
 }
 
 .alc {
